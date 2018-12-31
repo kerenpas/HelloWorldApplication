@@ -14,6 +14,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         getIntent().getExtras().getString("key");
+        //here new comment
 
         if (savedInstanceState != null) {
             String message = savedInstanceState.getString("message");
